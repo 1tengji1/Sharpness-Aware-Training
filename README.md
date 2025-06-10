@@ -3,8 +3,7 @@ The open source code for our proposed Physical Neural Network (PNN) training met
 
 ![fig](fig.jpg)
 
-SAT is a method we proposed based on the well-established method Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/forum?id=6Tm1mposlrM) and [Code](https://github.com/google-research/sam). 
-SAM was originally developed to enhance model generalization in the presence of data distribution shifts. In contrast, SAT aims to generally facilitate PNN's real-world deployment by searching for robust minima to all types of imperfections without re-training.
+Inspired by Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/forum?id=6Tm1mposlrM) and [Code](https://github.com/google-research/sam), which was originally developed to enhance model generalization under data distribution shifts, we propose SAT to generally facilitate PNN's real-world deployment by searching for robust minima to all types of imperfections without re-training. 
 
 The key to this work is that it automatically finds the robust minima without requiring any prior knowledge of the physical system. Different from existing training methods that are only valid during the training stage, we pay attention to the system performance post-training under perturbations and imperfections. In fact, SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training. We envision this as an important step for PNN's real-world applications.
 
