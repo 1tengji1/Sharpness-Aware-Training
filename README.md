@@ -4,9 +4,9 @@ The open source code for our proposed Physical Neural Network (PNN) training met
 ![fig](fig.jpg)
 
 Inspired by Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/forum?id=6Tm1mposlrM) and [Code](https://github.com/google-research/sam), which was originally developed to enhance model generalization under data distribution shifts, we propose SAT to generally facilitate PNN's real-world deployment by searching for robust minima to all types of imperfections without re-training. 
-
-### The key to this work is that it automatically finds the robust minima without requiring any prior knowledge of the physical system. 
-Different from existing training methods that are only valid during the training stage, we pay attention to the system performance post-training under perturbations and imperfections. In fact, SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training. We envision this as an important step for PNN's real-world applications.
+ 
+---> **The key to this work is that it automatically finds the robust minima without requiring any prior knowledge of the physical system.**
+---> **SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training under noises, perturbations, and system misalignment.**
 
 Different from SAM, to maximally increase PNN's robustness, we propose to reformulate weight optimization as control parameter optimization. This change enables the optimization to fully consider the physical relationship between weights and control parameters. (In 'System1-MRR Weight Bank-01-Training with different methods.ipynb', we incorporate the physical relation between the Microring weight bank's current and weight into the convolution layer and the linear layer.) Moreover, we further propose to use the established finite difference method to approximate the gradient, thereby enabling SAT to be generally applicable to PNNs even without explicitly known models. (In 'System2-D2NN-01-Training and evaluate robustness.ipynb' and 'System2-Free space PNN-01-Training and sweep accuracy', we demonstrate how to use the finite difference method to approximate the gradient.)
 
