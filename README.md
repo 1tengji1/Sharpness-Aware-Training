@@ -9,7 +9,10 @@ Inspired by Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/fo
 
 ---> **SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training under noises, perturbations, and system misalignment.**
 
-Different from SAM, to maximally increase PNN's robustness, we propose to reformulate weight optimization as control parameter optimization. This change enables the optimization to fully consider the physical relationship between weights and control parameters. (In 'System1-MRR Weight Bank-01-Training with different methods.ipynb', we incorporate the physical relation between the Microring weight bank's current and weight into the convolution layer and the linear layer.) Moreover, we further propose to use the established finite difference method to approximate the gradient, thereby enabling SAT to be generally applicable to PNNs even without explicitly known models. (In 'System2-D2NN-01-Training and evaluate robustness.ipynb' and 'System2-Free space PNN-01-Training and sweep accuracy', we demonstrate how to use the finite difference method to approximate the gradient.)
+---> **Key modification 1 with SAM: Weight optimization -> Control parameter optimization, Maximally increase PNN's robustness**
+
+---> **Key modification 2 with SAM: Finite difference method to approximate gradient, Generally applicable to different PNN**
+
 
 Our codes are constructed based on many excellent works and well-established techniques.
 
