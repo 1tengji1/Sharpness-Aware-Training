@@ -9,9 +9,9 @@ Inspired by Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/fo
 
 ---> **SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training under noises, perturbations, and system misalignment.**
 
----> **Key modification 1 with SAM: Weight optimization -> Control parameter optimization, Maximally increase PNN's robustness**
+---> **Key modification 1 with SAM: Weight optimization -> Control parameter optimization. Maximally increase PNN's robustness**
 
----> **Key modification 2 with SAM: Finite difference method to approximate gradient, Generally applicable to different PNN**
+---> **Key modification 2 with SAM: Finite difference method to approximate gradient. Generally applicable to different PNN**
 
 
 Our codes are constructed based on many excellent works and well-established techniques.
