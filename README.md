@@ -33,7 +33,6 @@ If you find our code helpful in your research or work, please cite our paper.
   title={Perfecting Imperfect Physical Neural Networks with Transferable Robustness using Sharpness-Aware Training},
   author={Xu, Tengji and Luo, Zeyu and Liu, Shaojie and Fan, Li and Xiao, Qiarong and Wang, Benshan and Wang, Dongliang and Huang, Chaoran},
   journal={arXiv preprint arXiv:2411.12352},
-  year={2024}
 }
 
   year={2024}
