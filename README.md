@@ -1,7 +1,7 @@
 # Sharpness-Aware-Training
 The open source code for our proposed Physical Neural Network (PNN) training method, Sharpness-Aware Training (SAT).
 
-SAT is a method we proposed based on the well-established method Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/forum?id=6Tm1mposlrM), and [Code](https://github.com/google-research/sam). 
+SAT is a method we proposed based on the well-established method Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/forum?id=6Tm1mposlrM) and [Code](https://github.com/google-research/sam). 
 SAM was originally developed to enhance model generalization in the presence of data distribution shifts. In contrast, SAT aims to generally facilitate PNN's real-world deployment by searching for robust minima to all types of imperfections without re-training.
 
 The key to this work is that it automatically finds the robust minima without requiring any prior knowledge of the physical system. Different from existing training methods that are only valid during the training stage, we pay attention to the system performance post-training under perturbations and imperfections. In fact, SAT aims not to replace the existing methods but to use the gradient information provided by the existing methods to generally improve the PNN's robustness post-training. We envision this as an important step for PNN's real-world applications.
@@ -28,9 +28,13 @@ The required environment libraries are summarized at the beginning of each code.
 # Cite this work
 If you find our code helpful in your research or work, please cite our paper.
 
+```bibtex
 @article{xu2024perfecting,
   title={Perfecting Imperfect Physical Neural Networks with Transferable Robustness using Sharpness-Aware Training},
   author={Xu, Tengji and Luo, Zeyu and Liu, Shaojie and Fan, Li and Xiao, Qiarong and Wang, Benshan and Wang, Dongliang and Huang, Chaoran},
   journal={arXiv preprint arXiv:2411.12352},
+  year={2024}
+}
+
   year={2024}
 }
