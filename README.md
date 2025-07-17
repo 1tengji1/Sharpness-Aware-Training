@@ -25,8 +25,8 @@ Well-established techniques,
 1. Sharpness-Aware Minimization (SAM),  [Paper](https://openreview.net/forum?id=6Tm1mposlrM), [Code1](https://github.com/google-research/sam), [Code2](https://github.com/davda54/sam)
 2. Plot loss landscape, [Code](https://github.com/marcellodebernardi/loss-landscapes/tree/master)
 3. Evaluate model's robustness, [Code](https://github.com/google/spectral-density)
-4. Deep diffraction neural network (D2NN) simulation tools, [Paper](https://www.science.org/doi/10.1126/science.aat8084), [Code](https://github.com/Loli-Eternally/D2NN-with-Pytorch)
-5. Mach-Zehnder Interferometer (MZI) mesh simulation tools, [Paper](https://www.nature.com/articles/nphoton.2017.93), [Code](https://github.com/solgaardlab/neurophox)
+4. Mach-Zehnder Interferometer (MZI) mesh simulation tools, [Paper](https://www.nature.com/articles/nphoton.2017.93), [Code](https://github.com/solgaardlab/neurophox)
+5. Deep diffraction neural network (D2NN) simulation tools, [Paper](https://www.science.org/doi/10.1126/science.aat8084), [Code](https://github.com/Loli-Eternally/D2NN-with-Pytorch)
 
 # Getting started
 The required environment libraries are summarized at the beginning of each code. Please download the libraries first and then run the code.
