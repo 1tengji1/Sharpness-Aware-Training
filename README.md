@@ -31,6 +31,11 @@ Well-established techniques,
 # Getting started
 The required environment libraries are summarized at the beginning of each code. Please download the libraries first and then run the code.
 
+# System requirements
+Python 3.9.19
+torch 2.6.0+cu118
+numpy 1.21.5
+
 # Cite this work
 If you find our code helpful in your research or work, please cite our paper.
 
