@@ -28,8 +28,10 @@ Well-established techniques,
 4. Mach-Zehnder Interferometer (MZI) mesh simulation tools, [Paper](https://www.nature.com/articles/nphoton.2017.93), [Code](https://github.com/solgaardlab/neurophox)
 5. Deep diffraction neural network (D2NN) simulation tools, [Paper](https://www.science.org/doi/10.1126/science.aat8084), [Code](https://github.com/Loli-Eternally/D2NN-with-Pytorch)
 
-# Getting started
+# Getting started (Demo)
 The required environment libraries are summarized at the beginning of each code. Please download the libraries first and then run the code.
+
+The demo code is 'System1-MRR Weight Bank / 01-Training with different methods.ipynb'
 
 # System requirements
 - Python 3.9.19
