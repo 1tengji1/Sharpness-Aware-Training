@@ -13,6 +13,7 @@ Inspired by Sharpness-Aware Minimization (SAM) [Paper](https://openreview.net/fo
 
 ---> **Key modification 2 with SAM: Finite difference method to approximate gradient. Generally applicable to different PNN.**
 
+---> **The other experimentally measured data in the main text and supplementary materials are also provided.**
 
 Our codes are constructed based on many excellent works and well-established techniques.
 
